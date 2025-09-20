@@ -216,13 +216,14 @@ Try these sample descriptions:
 ## 📁 Project Structure
 
 ```
-src/
+./src
 ├── App.css
 ├── App.jsx
 ├── assets
 │   └── react.svg
-├── common
 ├── components
+│   ├── common
+│   │   └── ErrorBoundary.jsx
 │   ├── forms
 │   │   └── RequirementForm.jsx
 │   └── ui
