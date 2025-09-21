@@ -452,9 +452,7 @@ const MockUIGenerator = ({ requirements }) => {
           <div>
             <h5 className="font-medium text-amber-800 mb-1">Implementation Note</h5>
             <p className="text-sm text-amber-700">
-              This is a mock UI generated from your requirements. In your actual React app, replace the inline 
-              <code className="bg-amber-100 px-1 rounded mx-1">generateEntityFields</code> function with 
-              imports from your API service to enable real AI-powered field generation.
+              This is a mock UI generated from your requirements.
             </p>
           </div>
         </div>
