@@ -2,7 +2,7 @@
 const OPENROUTER_API_URL = import.meta.env.VITE_OPENROUTER_API_URL || 'https://openrouter.ai/api/v1/chat/completions';
 const OPENROUTER_API_KEY = import.meta.env.VITE_OPENROUTER_API_KEY;
 const SITE_URL = import.meta.env.VITE_SITE_URL || 'http://localhost:5173';
-const SITE_NAME = import.meta.env.VITE_SITE_NAME || 'Requirement Portal';
+const SITE_NAME = import.meta.env.VITE_SITE_NAME || 'Mini AI App Builder Portal';
 
 // Helper function to make OpenRouter API calls
 const callOpenRouterAPI = async (prompt, maxTokens = 500) => {

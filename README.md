@@ -298,7 +298,7 @@ In Netlify dashboard → Site settings → Environment variables:
 |---------------|-------|-------------|
 | `VITE_OPENROUTER_API_KEY` | `sk-or-v1-your-actual-key` | Your OpenRouter API key |
 | `VITE_SITE_URL` | `https://your-app.netlify.app` | Your production URL |
-| `VITE_SITE_NAME` | `Requirement Portal` | Your app name |
+| `VITE_SITE_NAME` | `Mini AI App Builder Portal` | Your app name |
 
 #### **Step 5: Deploy**
 1. Click **"Deploy site"**
