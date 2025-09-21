@@ -39,6 +39,7 @@ function App() {
             <Route path="/gallery" element={<ProjectGallery />} />
             <Route path="/projects/:identifier" element={<ProjectView />} />
             <Route path="/analytics" element={<AnalyticsDashboard />} />
+            <Route path="/projects/:slug" element={<ProjectView />} />
           </Routes>
         </div>
       </Router>

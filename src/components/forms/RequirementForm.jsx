@@ -1,4 +1,5 @@
 import React, { useState, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { submitRequirements } from '../../services/api'; // Your existing OpenRouter API
 import { projectService } from '../../services/projectservice';
 
@@ -115,14 +116,14 @@ const RequirementForm = ({ onRequirementsGenerated }) => {
           <div className="mb-4 p-4 bg-green-50 border border-green-200 text-green-700 rounded">
             ✅ Project saved successfully! 
             {savedProject.project?.slug && (
-              <a 
-                href={`/projects/${savedProject.project.slug}`} 
+               <Link 
+                to={`/projects/${savedProject.project.slug}`} 
                 className="ml-2 font-medium underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 View project page →
-              </a>
+              </Link>
             )}
           </div>
         )}
