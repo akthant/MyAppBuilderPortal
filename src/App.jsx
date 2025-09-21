@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { AppProvider } from './contexts/AppContext';
 import Home from './pages/Home';
-import ProjectGallery from './components/gallery/projectgallery';
-import ProjectView from './components/gallery/projectview';
+import ProjectGallery from './components/gallery/ProjectGallery';
+import ProjectView from './components/gallery/ProjectView';
 import AnalyticsDashboard from './components/analytics/AnalyticsDashboard';
 import './index.css';
 
