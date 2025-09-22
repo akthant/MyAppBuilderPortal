@@ -114,17 +114,7 @@ const RequirementForm = ({ onRequirementsGenerated }) => {
         {/* Success Message - Only show if project was saved */}
         {savedProject && (
           <div className="mb-4 p-4 bg-green-50 border border-green-200 text-green-700 rounded">
-            ✅ Project saved successfully! 
-            {savedProject.project?.slug && (
-               <Link 
-                to={`/projects/${savedProject.project.slug}`} 
-                className="ml-2 font-medium underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View project page →
-              </Link>
-            )}
+            ✅ Project saved successfully!
           </div>
         )}
 
