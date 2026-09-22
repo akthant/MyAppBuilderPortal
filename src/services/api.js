@@ -16,7 +16,7 @@ const callOpenRouterAPI = async (prompt, maxTokens = 500) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: [ 'anthropic/claude-sonnet-latest','openai/gpt-5.4-mini'],
+        model: ['anthropic/claude-sonnet-latest','openai/gpt-5.4-mini'],
         messages: [
           {
             role: 'user',
