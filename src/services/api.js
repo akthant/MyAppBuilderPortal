@@ -16,7 +16,7 @@ const callOpenRouterAPI = async (prompt, maxTokens = 500) => {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'anthropic/claude-sonnet-latest',
+        model: 'anthropic/claude-opus-5',
         messages: [
           {
             role: 'user',
